@@ -1,0 +1,41 @@
+element.style {
+  margin: 0px;
+  margin-right: 6px;
+  background: rgb(255,255,255);
+  color: var(--gray-dark);
+  border-color: var(--gray-dark);
+  width: 210px;
+  height: 210px;
+}
+
+element.style {
+  margin-left: 50px;
+}
+
+element.style {
+  margin-left: 50px;
+}
+
+element.style {
+  margin-left: 50px;
+}
+
+element.style {
+  margin-left: 20px;
+}
+
+
+.whitebackground {
+  background: rgb(255,255,255)!important;
+  color: var(--gray-dark)!important;
+  touch-action: rgb(249, 253, 9)!important;
+}
+
+.whitebackground:focus {
+  background: #f47c00!important;
+  color: var(--gray-dark)!important;
+}
+
+.row.w-100 > div {
+  min-height: 220px;
+}

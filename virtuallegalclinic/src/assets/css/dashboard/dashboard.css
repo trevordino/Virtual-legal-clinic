@@ -1,0 +1,101 @@
+.features-boxed {
+    color: #313437;
+    background-color: #F2F0E4;
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.features-boxed .intro p {
+    margin: 0;
+
+}
+
+.features-boxed .item {
+    text-align: center;
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.features-boxed .item .icon {
+    font-size: 60px;
+    color: #1485ee;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.features-boxed .item .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: inherit;
+}
+
+.features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: #9F2943!important;
+}
+
+.btn-primary {
+    background-color: #9F2943!important;
+    border: #9F2943;
+}
+
+a {
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+.card{
+    margin-left: 00px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+
+}
+
+.card-header{
+    background-color: #9F2943!important;
+    border: #9F2943;
+    
+}
+
+.card-header > button {
+    color: #f2f0e4 !important;
+}
+
+.buttonz{
+    margin-left: 200px;
+    touch-action: #ffc402!important;
+width: 165px
+}
+
+.buttonfacts{
+    margin-left: 120px
+}
+
+.buttonz:active{
+    background-color: #ffc402!important;
+}
+
+.buttonfacts:active{
+    background-color: #ffc402!important;
+}

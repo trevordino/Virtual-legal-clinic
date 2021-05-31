@@ -1,0 +1,33 @@
+.factsbox{
+  margin-left: 180px;
+  width: 800px;
+  margin-top: 20px
+}
+
+.factstitle{
+  margin-left: 180px;
+  margin-top: 10px
+}
+
+.backtodashboardbutton{
+  background-color: #9f2943;
+  color: rgb(255,255,255);
+  width: 170px;
+  margin-left: 500px;
+  margin-top: 100px;
+  font-size: medium;
+  font-style: normal;
+}
+
+.taxonomybox{
+  margin-left: 770px;
+  width: 800px;
+  margin-top: 40px;
+}
+
+.fotc{
+  margin-left: 480px;
+  width: 800px;
+  margin-top: 40px;
+  background-color: rgb(255,255,255)!important;
+}

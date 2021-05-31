@@ -1,0 +1,35 @@
+{
+  "name": "vlcbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node-dev --no-notify index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opengovsg/spcp-auth-client": "^1.4.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "node-jose": "^2.0.0",
+    "nonce": "^1.0.4",
+    "query-string": "^7.0.0",
+    "querystring": "^0.2.1",
+    "superagent-bluebird-promise": "^4.2.0",
+    "twilio": "^3.59.0",
+    "urlsafe-base64": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-dev": "^6.4.0"
+  }
+}
