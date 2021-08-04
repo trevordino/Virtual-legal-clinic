@@ -23,13 +23,16 @@ A simple, client server application for a mock Virtual Legal Clinic. Relies on S
     * vlcbackend -> Server app
     * mockpass-2.6.6 -> Mockpass
     
-Each application can be run independently, using `npm start` in the respective folders.  
-Alternatively, a `Dockerfile` in each folder allows each app to be containerised.
+Start by loading `db.sql` into your MySQL Server.  
+In each application, run `npm i` to install dependencies.
+If using Docker, build each app using an appropriate method. The `Dockerfile` has been provided for each application.
+
+Each application can also be run independently, using `npm start` in the respective folders. 
 
 # Further modifications
 A Twilio Video account is needed for the video conferencing function. Obtain an account  [here](https://www.twilio.com/video).  
 
-After which, add the `TWILIO_ACCOUNT_SID`, `TWILIO_API_KEY`, and `TWILIO_API_SECRET` into the `.env` folder in vlcbackend.
+After which, add the `TWILIO_ACCOUNT_SID`, `TWILIO_API_KEY`, and `TWILIO_API_SECRET` into the `.env` file in vlcbackend.
 
 The `.env` file should contain the following"
 ```
