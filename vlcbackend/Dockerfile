@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:14
 
 WORKDIR /app
 
@@ -9,6 +9,6 @@ RUN npm install --silent
 
 COPY . ./
 
-EXPOSE 8080
+EXPOSE 5000
 
 CMD ["npm", "start"]
