@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@opengovsg/spcp-auth-client": "^1.4.2",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
@@ -25,6 +27,7 @@
     "nonce": "^1.0.4",
     "query-string": "^7.0.0",
     "querystring": "^0.2.1",
+    "superagent": "^6.1.0",
     "superagent-bluebird-promise": "^4.2.0",
     "twilio": "^3.59.0",
     "urlsafe-base64": "^1.0.0"
